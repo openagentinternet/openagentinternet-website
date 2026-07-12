@@ -953,8 +953,12 @@
         }
 
         .nav {
-          gap: 6px;
+          gap: 4px;
           font-size: 0.68rem;
+        }
+
+        .nav a:not(.nav-cta) {
+          display: none;
         }
 
         .nav .nav-cta {
@@ -977,10 +981,6 @@
       }
 
       @media (max-width: 360px) {
-        .nav a:not(.nav-cta) {
-          display: none;
-        }
-
         .nav {
           gap: 0;
         }
