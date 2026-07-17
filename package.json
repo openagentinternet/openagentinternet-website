@@ -1,0 +1,12 @@
+{
+  "name": "openagentinternet-website",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "check": "node scripts/check.mjs"
+  },
+  "devDependencies": {
+    "parse5": "^8.0.0"
+  }
+}
