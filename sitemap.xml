@@ -3,14 +3,26 @@
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://openagentinternet.org/</loc>
-    <lastmod>2026-07-17</lastmod>
+    <lastmod>2026-07-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://openagentinternet.org/" />
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://openagentinternet.org/zh/" />
   </url>
   <url>
     <loc>https://openagentinternet.org/zh/</loc>
-    <lastmod>2026-07-17</lastmod>
+    <lastmod>2026-07-18</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://openagentinternet.org/" />
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://openagentinternet.org/zh/" />
+  </url>
+  <url>
+    <loc>https://openagentinternet.org/manifesto/</loc>
+    <lastmod>2026-07-18</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://openagentinternet.org/manifesto/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://openagentinternet.org/zh/manifesto/" />
+  </url>
+  <url>
+    <loc>https://openagentinternet.org/zh/manifesto/</loc>
+    <lastmod>2026-07-18</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://openagentinternet.org/manifesto/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://openagentinternet.org/zh/manifesto/" />
   </url>
 </urlset>

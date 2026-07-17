@@ -4,6 +4,16 @@ import * as parse5 from "parse5";
 const pages = [
   { path: "index.html", lang: "en", canonical: "https://openagentinternet.org/" },
   { path: "zh/index.html", lang: "zh-CN", canonical: "https://openagentinternet.org/zh/" },
+  {
+    path: "manifesto/index.html",
+    lang: "en",
+    canonical: "https://openagentinternet.org/manifesto/",
+  },
+  {
+    path: "zh/manifesto/index.html",
+    lang: "zh-CN",
+    canonical: "https://openagentinternet.org/zh/manifesto/",
+  },
 ];
 
 function walk(node, visit) {
