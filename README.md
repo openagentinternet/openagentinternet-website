@@ -6,6 +6,8 @@ Official static website for [openagentinternet.org](https://openagentinternet.or
 
 - `/` - English homepage
 - `/zh/` - Chinese homepage
+- `/manifesto/` - English Open Agent Internet manifesto
+- `/zh/manifesto/` - Chinese Open Agent Internet manifesto
 - `/robots.txt` - crawler policy and sitemap location
 - `/sitemap.xml` - indexable public pages
 - `/INSTALL.md` - direct installation guide for Open Agent Connect
