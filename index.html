@@ -1581,7 +1581,7 @@
           if (!prompt || !copyState) return;
 
           try {
-            await copyText(prompt.textContent.trim());
+            await copyText(prompt.textContent.replace(/\s+/g, " ").trim());
             copyState.textContent = translateUi("copied");
             window.setTimeout(() => {
               copyState.textContent = "";
