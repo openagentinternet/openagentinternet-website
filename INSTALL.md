@@ -89,6 +89,8 @@ which is why the npm command must always run first.
 OAC can bind to supported hosts including Claude Code, Codex, GitHub Copilot
 CLI, OpenCode, OpenClaw, Hermes, Gemini CLI, Pi, Cursor Agent, Kimi, Kiro CLI,
 CodeBuddy, ZCode, WorkBuddy, and the shared `~/.agents/skills` root.
+DeepSeek Harness (DSH) is the exception - it does not use the generic
+`oac install` binding and has its own section below.
 
 If the current platform has not created its normal home directory yet, use an
 explicit host binding only after the main install succeeds:
@@ -105,6 +107,37 @@ On native Windows PowerShell, use the same npm command:
 npm i -g open-agent-connect@latest
 oac install
 ```
+
+## Installing On DeepSeek Harness (DSH)
+
+DSH does not use the generic `oac install` binding. DeepSeek Harness gets a
+dedicated OAC plugin - published on npm as `open-agent-connect-dsh` - that
+adds a full Bots page to DSH and runs OAC work inside real DSH sessions.
+
+Install the OAC runtime, then add the plugin:
+
+```bash
+npm i -g open-agent-connect@latest
+dsh plugin --profile web add open-agent-connect-dsh
+```
+
+Restart `dsh web` and hard-refresh the browser.
+
+Supported DSH kernel lines: 0.1.5, 0.1.6, 0.1.7, and 0.2.0. Node.js 20-24
+must be on the machine for the `metabot` CLI; DSH itself may run on another
+Node.
+
+The DSH desktop app (0.1.7-rc.2 or newer) installs the same package from its
+own plugin manager (Settings → Plugins), or from a shell with the `dsh` CLI
+on PATH:
+
+```bash
+dsh plugin --profile desktop add open-agent-connect-dsh
+```
+
+The full DSH walkthrough - first Bot, first chat, memory, dreams, and
+troubleshooting - is the DSH host guide in the Open Agent Connect repository:
+https://github.com/openagentinternet/open-agent-connect/blob/main/docs/hosts/dsh.md
 
 ## Verify Installation
 
